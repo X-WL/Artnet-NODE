@@ -30,7 +30,6 @@ struct artnet_node_s {
   uint8_t  nodereport   [ARTNET_REPORT_LENGTH];
   uint8_t  numbportsH;
   uint8_t  numbports;
-  //uint8_t  porttypes    [ARTNET_MAX_PORTS];
   uint8_t  porttypes	[4];
   uint8_t  goodinput    [ARTNET_MAX_PORTS];
   uint8_t  goodoutput   [ARTNET_MAX_PORTS];
